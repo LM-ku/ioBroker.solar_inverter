@@ -1,0 +1,53 @@
+{
+  "name": "iobroker.solar_inverter",
+  "version": "0.6.0",
+  "description": "ioBroker solar_inverter Adapter",
+  "author": {
+    "name": "LM-ku",
+    "email": "leonid.m.65@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "LM-ku",
+      "email": "leonid.m.65@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/ioBroker/ioBroker.solar_inverter",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "solar_inverter",
+    "Smart Home",
+    "home automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ioBroker/ioBroker.solar_inverter"
+  },
+  "dependencies": {
+	"crc16": "latest",
+    "express": "latest",
+    "fs": "latest",
+    "npmdatelog": "latest",
+    "request": "latest",
+    "serialport": "latest",
+
+    "influx": "latest",
+
+    "mqtt": "latest",
+    "@serialport/parser-readline": "latest"  
+   },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^4.1.0",
+    "chai": "^4.1.2"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --exit"
+  },
+  "bugs": {
+    "url": "https://github.com/ioBroker/ioBroker.solar_inverter/issues"
+  },
+  "readmeFilename": "README.md"
+}
