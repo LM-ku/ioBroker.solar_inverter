@@ -2,7 +2,8 @@
 # ioBroker.solar_inverter
 =================
 
-This adapter is a solar_inverter for the creation of an ioBroker adap
+This is an adapter to monitor and control the solar inverter.
+
 ## License
 The MIT License (MIT)
 
