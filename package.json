@@ -1,6 +1,6 @@
 {
   "name": "iobroker.solar_inverter",
-  "version": "0.6.0",
+  "version": "0.0.0",
   "description": "ioBroker solar_inverter Adapter",
   "author": {
     "name": "LM-ku",
@@ -31,9 +31,6 @@
     "npmdatelog": "latest",
     "request": "latest",
     "serialport": "latest",
-
-    "influx": "latest",
-
     "mqtt": "latest",
     "@serialport/parser-readline": "latest"  
    },
