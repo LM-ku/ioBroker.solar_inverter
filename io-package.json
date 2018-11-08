@@ -1,12 +1,12 @@
 {
     "common": {
         "name": "solar_inverter",
-        "version": "0.0.1",
+        "version": "0.0.0",
         "news": {
-            "0.0.1": {
+            "0.0.0": {
                 "en": "initial adapter",
                 "de": "Initiale Version",
-                "ru": "Первоначальный адаптер",
+                "ru": "Первоначальная версия",
                 "pt": "Versão inicial",
                 "fr": "Version initiale",
                 "nl": "Eerste release"
