@@ -1,9 +1,9 @@
 /*
-    ioBroker.template Widget-Set
+    ioBroker.solar_inverter Widget-Set
 
-    version: "0.5.0"
+    version: "0.0.0"
 
-    Copyright 10.2015-2016 @@Author@@<@@email@@>
+    Copyright 11.2018 LM-ku <leonid.m.65@gmail.com>
 
 */
 "use strict";
@@ -29,12 +29,12 @@ $.extend(true, systemDictionary, {
 });
 
 // this code can be placed directly in template.html
-vis.binds.template = {
+vis.binds.solar_inverter = {
     version: "0.5.0",
     showVersion: function () {
-        if (vis.binds.template.version) {
-            console.log('Version template: ' + vis.binds.template.version);
-            vis.binds.template.version = null;
+        if (vis.binds.solar_inverter.version) {
+            console.log('Version solar_inverter: ' + vis.binds.solar_inverter.version);
+            vis.binds.solar_inverter.version = null;
         }
     },
 	createWidget: function (widgetID, view, data, style) {
@@ -42,7 +42,7 @@ vis.binds.template = {
         // if nothing found => wait
         if (!$div.length) {
             return setTimeout(function () {
-                vis.binds.template.createWidget(widgetID, view, data, style);
+                vis.binds.solar_inverter.createWidget(widgetID, view, data, style);
             }, 100);
         }
 
@@ -59,10 +59,10 @@ vis.binds.template = {
         // subscribe on updates of value
         if (data.oid) {
             vis.states.bind(data.oid + '.val', function (e, newVal, oldVal) {
-                $div.find('.template-value').html(newVal);
+                $div.find('.solar_inverter-value').html(newVal);
             });
         }
     }
 };
 	
-vis.binds.template.showVersion();
+vis.binds.solar_inverter.showVersion();
