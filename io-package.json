@@ -16,7 +16,7 @@
         "desc": {
             "en": "ioBroker Solar Inverter adapter",
             "de": "ioBroker Solar Inverter Adapter",
-            "ru": "ioBroker адаптер солнечного инвертора ",
+            "ru": "ioBroker адаптер солнечного инвертора "
         },
         "authors": [
             "LM-ku <leonid.m.65@gmail.com>"
